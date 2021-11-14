@@ -1,24 +1,17 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## prerequisite
 
-Things you may want to cover:
+Yarn, Rails 6
 
-* Ruby version
+## Install
 
-* System dependencies
+1.- bundle install
+2.- cd todo-app 
+3.- yarn 
 
-* Configuration
+## Run
+rails db:migrate
+heroku local  -f Procfile.dev  
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+go to http://localhost:4000
